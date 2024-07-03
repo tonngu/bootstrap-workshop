@@ -12,5 +12,73 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
-  <body></body>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Maybe make container fluid, looks weird on big screen when there's little text -->
+      <div class="container">
+        <!-- Put logo link into href='#' later -->
+        <a class="navbar-brand" href="#">Tony Nguyen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+  <section id="about">
+      <h2>About Me</h2>
+      <p>short introduction</p>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="mt-5">
+      <h2>Contact Me</h2>
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+              <label for="phone" class="form-label">Phone number</label>
+              <input type="tel" class="form-control" id="phone" name="phone">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </section>
+</div>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+      <p>&copy; 2024 Tony Nguyen. All rights reserved.</p>
+  </footer>
+
+
+  </body>
+
+
+
 </html>
