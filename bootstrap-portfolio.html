@@ -29,15 +29,39 @@
             margin-bottom: 30px;
             text-align: center;
         }
-        .experience-text {
-            background-color: #f0f0f0; /* Light gray background */
-            padding: 30px; /* Add padding for better readability */
+        #experience {
+            background-color: #f0f0f0; 
+            padding: 30px; 
             text-align: center;
             font-size: 1.2rem;
             line-height: 1.8;
-            border-radius: 8px; /* Optional: Add rounded corners */
+            border-radius: 8px; 
         }
 
+        #projects {
+            background-color: #f0f0f0; 
+            padding: 50px 0; 
+            border-radius: 8px; 
+        }
+
+        .project-preview {
+            border: 1px solid #ccc; 
+            border-radius: 8px; 
+            padding: 15px; 
+            margin-bottom: 20px; 
+        }
+        .project-preview img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; 
+            margin-bottom: 10px; 
+        }
+    
+        .project-preview .btn {
+            background-color: #343a40; 
+            color: #fff;
+            border-radius: 2px;
+          }
   </style>
 
   </head>
@@ -66,7 +90,15 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -171,6 +203,84 @@
         </div>
     </div>
 </section>
+
+ <!-- Projects Section -->
+ <section id="projects">
+  <div class="container">
+      <h2 class="section-title text-center mb-4">Projects</h2>
+
+      <div class="row mb-4">
+          <!-- First Project Preview (2 columns wide) -->
+          <div class="col-md-6 mb-3">
+              <div class="project-preview">
+                  <img src="1200x400.webp" alt="Project 1">
+                  <h6 class="mt-2">Project Title 1</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+          <!-- Second Project Preview (1 column wide) -->
+          <div class="col-md-3 mb-3">
+              <div class="project-preview">
+                  <img src="600x400a.jpg" alt="Project 2">
+                  <h6 class="mt-2">Project Title 2</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+          <!-- Third Project Preview (1 column wide) -->
+          <div class="col-md-3 mb-3">
+              <div class="project-preview">
+                  <img src="600x400b.jpg" alt="Project 3">
+                  <h6 class="mt-2">Project Title 3</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <!-- Fourth Project Preview (1 column wide) -->
+          <div class="col-md-3 mb-3">
+              <div class="project-preview">
+                  <img src="600x200a.jpg" alt="Project 4">
+                  <h6 class="mt-2">Project Title 4</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+          <!-- Fifth Project Preview (1 column wide) -->
+          <div class="col-md-3 mb-3">
+              <div class="project-preview">
+                  <img src="600x200b.jpg" alt="Project 5">
+                  <h6 class="mt-2">Project Title 5</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+          <!-- Sixth Project Preview (1 column wide) -->
+          <div class="col-md-3 mb-3">
+              <div class="project-preview">
+                  <img src="600x200c.jpg.crdownload" alt="Project 6">
+                  <h6 class="mt-2">Project Title 6</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+          <!-- Seventh Project Preview (1 column wide) -->
+          <div class="col-md-3 mb-3">
+              <div class="project-preview">
+                  <img src="600x200d.jpg.crdownload" alt="Project 7">
+                  <h6 class="mt-2">Project Title 7</h6>
+                  <p>Project description</p>
+                  <a href="#" class="btn btn-dark">View</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
 
 
   <!-- Contact Form -->
